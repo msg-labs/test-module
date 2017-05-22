@@ -1,7 +1,7 @@
 {
   "name": "@msg-labs/test-module",
   "version": "2.2.1",
-  "description": "Test module... Now using a dependency!!",
+  "description": "Test module... Now scoped and using a dependency!!",
   "scripts": {
     "prepublish": "npm test",
     "test": "node index.tests.js"
