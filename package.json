@@ -7,9 +7,16 @@
     "test": "node index.tests.js"
   },
   "main": "index.js",
-  "keywords": [],
-  "author": "Miguel Sanchez Gonzalez",
+  "keywords": [
+    "test",
+    "msg-labs"
+  ],
+  "author": "Miguel Sanchez Gonzalez <miguelsanychez@gmail.com>",
   "license": "WTFPL",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/msg-labs/test-module"
+  },
   "dependencies": {
     "rxjs": "^5.4.0"
   }
