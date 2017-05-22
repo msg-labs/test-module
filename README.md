@@ -1,4 +1,4 @@
-# msg-labs-module [[Test Module]]
+# @msg-labs/test-module [[Test Module]]
 
 Just a test module to learn how to deploy and manage npm modules using different
 organisations and users
@@ -7,7 +7,7 @@ organisations and users
 
 ```javascript
 
-const { init } = require( 'msg-labs-module' );
+const { init } = require( '@msg-labs/test-module' );
 
 init()
     .subscribe( message => console.log( message ) );
