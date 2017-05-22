@@ -1,0 +1,16 @@
+{
+  "name": "msg-labs-module",
+  "version": "2.2.1",
+  "description": "Test module... Now using a dependency!!",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "node index.tests.js"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "Miguel Sanchez Gonzalez",
+  "license": "WTFPL",
+  "dependencies": {
+    "rxjs": "^5.4.0"
+  }
+}
