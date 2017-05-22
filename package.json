@@ -1,5 +1,5 @@
 {
-  "name": "msg-labs-module",
+  "name": "@msg-labs/test-module",
   "version": "2.2.1",
   "description": "Test module... Now using a dependency!!",
   "scripts": {
