@@ -5,7 +5,7 @@ const { Observable } = require( 'rxjs' );
  *
  * Returns a greeting message.
  *
- * This message will be customised if the name parameter is pressent
+ * This message will be customised if the name parameter is present
  *
  * @param {string?} name Target of the greet
  *
