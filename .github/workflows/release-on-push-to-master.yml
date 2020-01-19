@@ -14,9 +14,9 @@ jobs:
     - name: Installing dependencies
       run: npm ci
     - name: Linting project
-      run: npm run lint
+      run: npm run lint --if-present
     - name: Running tests
-      run: npm test
+      run: npm test --if-present
 
   release:
     needs: test
