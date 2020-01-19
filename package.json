@@ -1,10 +1,11 @@
 {
   "name": "@msg-labs/test-module",
-  "version": "2.2.3",
+  "version": "2.3.0",
   "description": "Test module... Now scoped and using a dependency!!",
   "scripts": {
     "prepublish": "npm test",
-    "test": "node index.tests.js"
+    "test": "node index.tests.js",
+    "release": "standard-version"
   },
   "main": "index.js",
   "keywords": [
@@ -14,10 +15,13 @@
   "author": "Miguel Sanchez Gonzalez <miguelsanychez@gmail.com>",
   "license": "WTFPL",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/msg-labs/test-module"
+    "type": "git",
+    "url": "https://github.com/msg-labs/test-module"
   },
   "dependencies": {
     "rxjs": "^5.4.0"
+  },
+  "devDependencies": {
+    "standard-version": "7.0.1"
   }
 }
