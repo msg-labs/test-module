@@ -1,6 +1,6 @@
 {
   "name": "@msg-labs/test-module",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "DO NOT INSTALL - Test module... Now scoped and using a dependency!!",
   "scripts": {
     "prepublish": "npm test",
@@ -13,9 +13,9 @@
     "msg-labs"
   ],
   "author": {
-      "name": "Miguel Sanchez Gonzalez",
-      "email": "miguelsanychez@gmail.com",
-      "url": "https://miguelsanchezgonzalez.com"
+    "name": "Miguel Sanchez Gonzalez",
+    "email": "miguelsanychez@gmail.com",
+    "url": "https://miguelsanchezgonzalez.com"
   },
   "license": "WTFNMFPL-1.0",
   "repository": {
