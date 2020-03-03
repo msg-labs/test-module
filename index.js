@@ -1,4 +1,4 @@
-const {of} = require('rxjs');
+const { of } = require( 'rxjs' );
 
 
 /**
