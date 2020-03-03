@@ -1,4 +1,4 @@
-const { Observable } = require( 'rxjs' );
+const {of} = require('rxjs');
 
 
 /**
@@ -13,5 +13,5 @@ const { Observable } = require( 'rxjs' );
  *
  */
 module.exports.init = ( name = 'Unknow user' ) =>
-    Observable.of( `${name}, Welcome to msg labs!` );
+    of( `${name}, Welcome to msg labs!` );
 
